@@ -3,7 +3,7 @@ import { connectFirestoreEmulator, getFirestore } from 'firebase/firestore';
 import { connectStorageEmulator, getStorage } from 'firebase/storage';
 import { isDev } from '../isDev';
 const firebaseConfig = {
-    apiKey: process.env.NEXT_FIREBASE_API_KEY,
+    apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
     authDomain: 'minext-9c06f.firebaseapp.com',
     projectId: 'minext-9c06f',
     storageBucket: 'minext-9c06f.appspot.com',
