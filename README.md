@@ -33,7 +33,7 @@
 
 6. **Run the Project**
     ```bash
-    yarn start
+    yarn dev
     ```
 
 Your project should now be running locally. Open your web browser and navigate to `http://localhost:3000` to view it.
