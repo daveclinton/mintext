@@ -22,7 +22,7 @@
    Create a new file called `.env.local` in the root directory of your project and add your Firebase API key:
 
     ```
-    FIREBASE_API_KEY=your-firebase-api-key
+    NEXT_PUBLIC_FIREBASE_API_KEY=your-firebase-api-key
     ```
 
 5. **Install Dependencies**
