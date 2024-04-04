@@ -13,6 +13,7 @@ import LoadingButton from '@/components/ui/LoadingButton';
 import SignUpModal from '@/components/ui/SignUpModal';
 import { loginWithEmail, useIsLoginWithEmailLoading } from '@/components/redux/auth/loginWithEmail';
 import { LoadingStateTypes } from '@/components/redux/types';
+import RegisterWithPhoneNumber from '@/components/ui/RegisterWithPhone';
 
 export const googleLoginProvider = new GoogleAuthProvider();
 
@@ -26,6 +27,7 @@ const LoginPage: NextPage = () => {
     const isLoading = useIsLoginWithEmailLoading();
 
     const [showRegistration, setshowRegistration] = useState(false);
+    const [phoneRegistration, setShowPhoneRegistration] = useState(false);
     const router = useRouter();
 
     // Realtime validation to enable submit button
@@ -117,11 +119,21 @@ const LoginPage: NextPage = () => {
                                     >
                                         Sign Up
                                     </div>
+                                    <div
+                                        onClick={() => setShowPhoneRegistration(true)}
+                                        className="ml-2 cursor-pointer font-medium text-violet-600 hover:text-violet-400"
+                                    >
+                                        Phone Registration
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <SignUpModal open={showRegistration} setOpen={setshowRegistration} />
+                    <RegisterWithPhoneNumber
+                        open={phoneRegistration}
+                        setOpen={setShowPhoneRegistration}
+                    />
                 </div>
             </div>
             <ToastBox />
