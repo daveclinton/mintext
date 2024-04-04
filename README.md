@@ -1,6 +1,3 @@
-Here's a single README.md file with Yarn commands:
-
-````markdown
 # Project Name
 
 ## Setup Instructions
@@ -10,6 +7,7 @@ Here's a single README.md file with Yarn commands:
     git clone https://github.com/your-username/your-repo.git
     cd your-repo
     ```
+
 ````
 
 2. **Install Firebase CLI**
@@ -47,3 +45,4 @@ This README file uses Yarn commands for installing Firebase CLI globally (`yarn 
 
 Note: Make sure you have Yarn installed on your machine before following these instructions. If not, follow the installation instructions provided in step 3.
 ```
+````
