@@ -4,11 +4,11 @@ import { connectStorageEmulator, getStorage } from 'firebase/storage';
 import { isDev } from '../isDev';
 const firebaseConfig = {
     apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-    authDomain: 'minext-9c06f.firebaseapp.com',
-    projectId: 'minext-9c06f',
-    storageBucket: 'minext-9c06f.appspot.com',
-    messagingSenderId: '301233216899',
-    appId: '1:301233216899:web:9e6ad946abe2b0d2bceab6',
+    authDomain: process.env.NEXT_PUBLIC_AUTH_DOMAIN,
+    projectId: process.env.NEXT_PUBLIC_PROHECT_ID,
+    storageBucket: process.env.NEXT_PUBLIC_STORAGE_BUCKET,
+    messagingSenderId: process.env.NEXT_PUBLIC_MESSAGE_SENDER_ID,
+    appId: process.env.NEXT_PUBLIC_APP_ID,
 };
 
 export const firebaseApp = initializeApp(firebaseConfig);
