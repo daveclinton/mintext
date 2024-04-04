@@ -18,7 +18,10 @@
 3. **Install Yarn (if not already installed)**
    If you haven't installed Yarn yet, you can install it by following the instructions at [https://yarnpkg.com/getting-started/install](https://yarnpkg.com/getting-started/install)
 
-4. **Create `.env.local` File**
+4. **Install PNPM (if not already installed)**
+   If you haven't installed PNPM yet, you can install it by following the instructions at [https://pnpm.io/installation](https://pnpm.io/installation)
+
+5. **Create `.env.local` File**
    Create a new file called `.env.local` in the root directory of your project and add your Firebase API key:
 
     ```
@@ -31,13 +34,13 @@
     NEXT_PUBLIC_APP_ID
     ```
 
-5. **Install Dependencies**
+6. **Install Dependencies**
 
     ```bash
     yarn install
     ```
 
-6. **Run the Project**
+7. **Run the Project**
     ```bash
     yarn dev
     ```
