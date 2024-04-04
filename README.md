@@ -3,12 +3,11 @@
 ## Setup Instructions
 
 1. **Clone the Repository**
+
     ```bash
     git clone https://github.com/your-username/your-repo.git
     cd your-repo
     ```
-
-````
 
 2. **Install Firebase CLI**
 
@@ -38,6 +37,3 @@
     ```
 
 Your project should now be running locally. Open your web browser and navigate to `http://localhost:3000` to view it.
-
-
-````
