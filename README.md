@@ -39,10 +39,5 @@
 
 Your project should now be running locally. Open your web browser and navigate to `http://localhost:3000` to view it.
 
-```
 
-This README file uses Yarn commands for installing Firebase CLI globally (`yarn global add firebase-tools`), installing project dependencies (`yarn install`), and running the project (`yarn start`).
-
-Note: Make sure you have Yarn installed on your machine before following these instructions. If not, follow the installation instructions provided in step 3.
-```
 ````
